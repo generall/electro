@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.10)  10 JUN 2013 19:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.10)  10 JUN 2013 19:49
 entering extended mode
  %&-line parsing enabled.
 **exam.tex
@@ -671,9 +671,9 @@ Here is how much of TeX's memory you used:
  27i,4n,24p,255b,154s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/pant
 eleev/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk>
-Output written on exam.pdf (1 page, 5132 bytes).
+Output written on exam.pdf (1 page, 6138 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
