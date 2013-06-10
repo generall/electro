@@ -3,3 +3,5 @@
 *.gz
 *.div
 *~
+*.toc
+*.out
