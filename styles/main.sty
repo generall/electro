@@ -55,43 +55,20 @@
 %%%
 %%% настройка параметров документа
 %%%
-	\oddsidemargin=-0.4mm
+	%\oddsidemargin=-0.4mm
 	%\textwidth=160mm
 	%\leftmargin=0mm
 	%\rightmargin=0mm
-	\topmargin=4.6mm
+	%\topmargin=4.6mm
 	%\textheight=210mm
-	\parindent=0pt
-	\parskip=3pt
-	\usepackage{setspace}
-	\onehalfspacing
+	%\parindent=0pt
+	%\parskip=3pt
+	%\usepackage{setspace}
+%	\onehalfspacing
 	\usepackage[left=2cm,right=1 cm,
     		top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
 
 
-
-
-
-\renewcommand*\l@section[2]{%
-\ifnum \c@tocdepth >\z@
-\addpenalty\@secpenalty
-\setlength\@tempdima{1.5em}%
-\begingroup
-\@tempdima 0.5cm \relax
-\parindent \z@ \rightskip \@pnumwidth
-\parfillskip -\@pnumwidth
-\leavevmode %\bfseries
-\advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
-{\hspace{0cm}{#1}\nobreak }%
-\leaders\hbox{%
-$\m@th
-\mkern \@dotsep mu\hbox{.}\mkern \@dotsep%
-mu$}\hfill%
-\nobreak%
-\hb@xt@\@pnumwidth{\hfil\normalsize \normalcolor #2}%
-\par%
-\endgroup
-\fi}
 
 \usepackage{float} % для трушного расположения картинок
 \usepackage{fancyhdr}
