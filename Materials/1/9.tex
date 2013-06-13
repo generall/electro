@@ -17,12 +17,12 @@ $$
 \frac{\partial \Delta p}{\partial t} = 0
 $$
 
-Получим
+Получим, деля обе части уравнения на $D_p$: 
 $$
 \frac{\partial^2p}{\partial x^2} - \frac{\Delta p}{L_p^2} = 0
 $$
-
-Т.к. $p = p_0 + \Delta p$, 
+Где $L = \sqrt{D \tau}$\\
+Т.к. $p = p_0 + \Delta p$, при этом $p_0 = const$, следовательно на производную влияет только $\Delta p$
 
 $$
 \frac{\partial^2\Delta p}{\partial x^2} - \frac{\Delta p}{L_p^2} = 0
@@ -51,6 +51,11 @@ $$
 $$
 \Delta p(x) = p_0 \left(exp\left[\frac{U}{\varphi_T}\right] -1 \right) exp\left[-\frac{x}{L}\right]
 $$
+А для тонкой:
+\begin{equation}
+\Delta p(x) = p_0 \left(exp\left[\frac{U}{\varphi_T}\right] -1 \right) (1 - \frac{x}{\omega})
+\end{equation}
+При этом распределение получается практически линейным.\\
 
 Т.к.
 $$
